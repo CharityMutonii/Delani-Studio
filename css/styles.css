@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+html{
+    font-family: "Sansita" swap;
+}
+/* home section*/
+.home{
+    background-image: url("../assets/bg-Images/h_img.jpg"); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 180px;
+    width: 100%;
+   
+} 
+.home-title h1{
+    padding-top: 20px;
+    font-size: 25px;
+     color: white;  
+     font-weight: bold;
+}
+.home h5{
+    font-size: 10px;
+    margin-top: 0;
+    color: white;
+}
+
+
+.logo2{
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+/* end home section */
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+/* about section */
+
+.about p{
+    text-align: center;
+    line-height: 1rem;
+    padding-bottom: 10px;
+    font-family: "Sansita" swap;
+}
+/* end about section */
+
+/* service section */
+.services p{
+    text-align: center;
+  
+    color: white;
+    
+}
+.services{
+    background-image: url("../assets/bg-Images/s_image.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.services h1{
+    color: white;
+    text-align: center;
+}
+/* end service section */
+
+/* whatwedo section */
+.do{
+   
+    width: 100%;
+    text-align: center;
+
+}
+.desi,.devel,.produ{
+    display: none;
+
+}
+.desi,.devel,.produ{
+    text-align: center;
+    font-size: 10px;
+}
+ .col h1{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#hh{
+    font-size: 10px;
+    padding-top: 0%;
+    font-weight: bolder;
+}
+.do img{
+padding-top: 30px;
+
+}
+/* end whatwedo */
+
+/* portfolio */
+.portfolio{
+    padding-right: 110px;
+   padding-left: 110px;
+   padding-bottom: 40px;
+}
+.card-title{
+    background-color: white;
+    
+}
+.card{
+    position: relative;
+    overflow: auto;
+}
+.card img{
+    height: auto;
+    width: 100%;
+}
+.portfolio .row{
+    padding-top: 10px;
+}
+.card-title{
+    display: none;
+}
+/* .card-title{
+    position: absolute;
+    bottom: 3px;
+    background-color:transparent;
+    font-size: 3px;
+    color: white;
+    border: 3px white solid;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 6px;
+    padding-left: 6px;
+
+} */
+
+/* end portofolio */
+
+/* contact section */
+.contact-us{
+    background-image: url("../assets/bg-Images/c_image.jpg");
+    padding-top: 20px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+   
+}
+.contact-us #cnt-form{
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+.contact-us textarea{
+    background: transparent;
+    border: 1px white solid;
+    opacity: .7;
+    width: 75%;
+}
+.contact-us input{
+    background: transparent;
+    border: 1px white solid;
+    margin-right: 50px;
+    opacity: .7;
+    width: 35%;
+}
+.contact-us h1{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.contact-us button{
+    background: transparent;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+/* end contact section */
+
+/* footer */
+ .footer{
+     padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+
+ }
+ .footer p{
+     text-align: center;
+     font-size: 10px;
+
+ }
+ /* footer */
