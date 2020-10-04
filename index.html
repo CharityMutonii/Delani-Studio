@@ -1,11 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <div class="home">
+            <div class="log1">
+                <img src="logo/logo.png" alt="logo1">
+            </div>
+            <div class="home-title">
+                <h1>WELCOME <br> <br> TO DELANI STUDIO </h1>
+                <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A
+                    FUN ENVIRONMENT</h5>
+            </div>
+            <div class="logo2">
+                <img src="logo/mouse_click.png" alt="logo2">
+            </div>
+        </div>
+        <div class="about">
+            <h1>about us</h1>
+            <p>when you work with us you're part of the committed collaborators. All aspects of our software
+                development
+                process are intergrated, interactive <br>
+                and agile.<br><br>
+                Our approch unifies design, development and product management to create exception.<br><br>
+                We start each project by understanding your business goals, the user needs and product
+                requirements.<br><br>
+                Then we help translate them into effective and elegant solutions.
+            </p>
+        </div>
+        <div class="services">
+            <h1>services</h1>
+            <p>Before we can a contract or write a line of code our team will spend the necesssary time needed to
+                understand your product vision <br><br>
+                The outcome of this scoping session is a proposal or high-level statement of work. <br><br>
+                based on your requirements, we can provide a complete offering or just the pieces you need.
+            </p>
+        </div>
+        <div class="do">
+            <h1>what we do</h1>
+            <div class="row">
+                <div class="col">
+                    <img src="assets/services_icons/design_icon.png" alt="design_icon" class="im1">
+                    <h1>Design</h1>
+                    <div class="desi">
+                        <p>Our design practice offers a full range of services <br>
+                            including brand strategy, interaction and visual design <br>
+                            and user experience testing. <br><br>
+                            Throughout your project, our designers create
+                            <br>and implement visual design and workflows, solicit user <br>
+                            feedback and work with you to make sure what gets built <br>
+                            is what is needed.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/services_icons/dev_icon.png" alt="dev_icon" class="im2">
+                    <h1>Development</h1>
+                    <div class="devel">
+                        <p>All engineers are fluent in the latest enterprise, mobile <br>
+                            and web development technologies. <br><br>
+                            They collaborate with your team to write, and improve <br>
+                            code on a daily basis, using proven practices such as <br>
+                            test-driven development and pair programming.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="assets/services_icons/product_icon.png" alt="product_icon" class="im3">
+                    <h1>Product Management</h1>
+                    <div class="produ">
+                        <p>Planning and development is iterative. Because we are <br>
+                            constantly coding and testing, the products we build are <br>
+                            always ready to go live. <br><br>
+                            This iterative process allows for changes as business <br>
+                            requirements evolve.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <h1>portfolio</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work4.jpg" alt="work4" class="pot1">
+                    </div>
+                    <div class="card-title">
+                        <h1>aranskas</h1>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work3.jpg" alt="work3" class="pot2">
+                    </div>
+                    <div class="card-title">
+                        <h1>orange</h1>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work2.jpg" alt="work2" class="pot3">
+
+                    </div>
+                    <div class="card-title">
+                        <h1>might</h1>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work1.jpg" alt="work1" class="pot4">
+                    </div>
+                    <div class="card-title">
+                        <h1>aranskas</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work5.jpg" alt="work5" class="pot5">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work6.jpg" alt="work6" class="pot6">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work7.jpg" alt="work7" class="pot7">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="assets/portfolio/work8.jpg" alt="work8" class="pot8">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-us">
+            <h1>contact us</h1>
+            <form action="" id="cnt-form">
+                <input type="text" placeholder="Name..." class="inname"> <input type="email" placeholder="Email..."> <br><br>
+                <textarea name="comments" id="" cols="60" rows="8" form="cont-form"
+                    placeholder="Your message here..."></textarea><br>
+                    <button type="submit" name="button" >submit</button>
+            </form>
+        </div>
+        <div class="footer">
+            <img src="assets/social_icons/twitter.png" alt="twitter">
+            <img src="assets/social_icons/dribble.png" alt="dribble">
+            <img src="assets/social_icons/facebook.png" alt="facebook">
+            <img src="assets/social_icons/g_plus.png" alt="google">
+            <img src="assets/social_icons/skype.png" alt="skype">
+            <img src="assets/social_icons/stumble_upon.png" alt="stumble">
+            <img src="assets/social_icons/behance.png" alt="behance">
+            <img src="assets/social_icons/pinterest.png" alt="pinterest">
+            <img src="assets/social_icons/flickr.png" alt="flickr">
+            <p>DELANI STUDIO <br>2019</p>
+        </div>
+
+    </div>
 </body>
+
 </html>
