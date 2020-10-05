@@ -24,9 +24,11 @@ Email:charitytoni0@gmail.com
 Tel:0783009867
 
 ### Github live pages
+https://charitymutonii.github.io/Delani-Studio/
 
 ### License 
 This project is license  by MIT
+
 ### copyright information
 Copyright (c) 2020 CharityMutonii
 
