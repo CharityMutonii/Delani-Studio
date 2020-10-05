@@ -1,7 +1,7 @@
 # Delani-studio
 
 ## Project Description
-This project is about implementing everything we have learnt from Bootstrap and jQuery by recreate a landing page for a fictional studio.
+This project is about implementing everything we have learnt about Bootstrap and jQuery by recreate a landing page for a fictional studio.
 
 ### Authors
 ***Charity Mutoni** 
